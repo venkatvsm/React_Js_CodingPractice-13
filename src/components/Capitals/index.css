@@ -1,0 +1,55 @@
+/* Write your CSS here */
+.bg_container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 'Roboto';
+  background-color: #93c5fd;
+}
+.card_container {
+  background-color: #f8fafc;
+  width: 80%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 36px;
+  border-radius: 15px;
+  padding-top: 45px;
+  padding-bottom: 55px;
+}
+.questionContainer {
+  display: flex;
+  
+}
+.optionelement {
+  border-style: solid;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 600;
+}
+.para {
+  margin-left: 15px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.countryName{
+  margin-top: 22px;
+  margin-bottom: 34px;
+  font-size: 40px;
+}
+@media screen and (min-width: 767px) {
+  .optionelement {
+    width: 400px;
+    height: 70px;
+    font-size: 18px;
+
+  }
+  .para {
+    padding-top: 10px;
+    font-size: 18px;
+  }
+}
